@@ -1,0 +1,17 @@
+# Build output (PyInstaller / Inno Setup). The setup .exe is published as a GitHub Release instead.
+build/
+dist/
+installer/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

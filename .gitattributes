@@ -1,0 +1,5 @@
+* text=auto
+# cmd.exe and Inno Setup need Windows line endings; LF-only .bat files break.
+*.bat text eol=crlf
+*.iss text eol=crlf
+*.sh  text eol=lf
